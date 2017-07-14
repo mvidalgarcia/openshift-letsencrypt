@@ -94,7 +94,7 @@ Get [dehydrated](https://github.com/lukas2511/dehydrated) and run the following 
 
 ```shell
 > echo CONTACT_EMAIL=test@example.com > my_config
-> /path/to/dehydrated -f config --register --accept-terms
+> /path/to/dehydrated -f my_config --register --accept-terms
 ```
 
 This will generate a key in `./accounts/*/account_key.pem` and info about it in
